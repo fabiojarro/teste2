@@ -14,16 +14,16 @@ public class Main {
 	public static void main(String[] args) {
 		
 		/**Definindo a Data do Ingresso**/
-		String data="26/10/2015";
+		String data="27/10/2015";
 		
-		/**Definindo se existi a apresentacao da Carteirinha,
+		/**Definindo se existe a apresentacao da Carteirinha,
 		 * neste caso a Tipo de Ingresso é desconsiderado e o cálculo ocorre sobre o valor do
 		 * ingresso do Estudante.
 		 */
 		boolean carteirinha = false;
 		
-		/**Definindo o Tipo de Ingresso é posível colocar Idosos,Crianças e Estudantes**/	
-		TipoIngresso tipo = TipoIngresso.IDOSOS;
+		/**Definindo o Tipo de Ingresso é possível colocar Idosos,Crianças e Estudantes**/	
+		TipoIngresso tipo = TipoIngresso.CRIANCAS;
 		
 		/**Criando o ingresso**/		
 		Ingresso ingresso = new Ingresso();		
